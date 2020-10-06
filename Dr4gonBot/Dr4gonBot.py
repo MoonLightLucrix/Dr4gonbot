@@ -23,7 +23,7 @@ def help(update,context):
 	context.bot.send_message(chat_id=update.effective_chat.id, text="\t\t<b>Comandi</b>\n\n/start - presentazione\n\n/twitch - link al canale twitch\n\n/discord - link discord\n\n/donazioni - fai una donazione\n\n/regole - Elenco di regole del gruppo e del canale\n\n/badoo - Bellissima foto ricordo di Badoo", parse_mode=ParseMode.HTML)
 
 def creepyBadoo(update,context):
-	context.bot.send_photo(chat_id=update.effective_chat.id, photo=open("/Users/matteogabriele/Documents/Belli/Dr4gonBot/Photo/Badoo1.JPG","rb"))
+	context.bot.send_photo(chat_id=update.effective_chat.id, photo=open("Photo/Badoo1.JPG","rb"))
 
 def setPoll(update,context):
 	game_list=["The Witcher 2: Assassins of Kings", "South Park: The Fractured but whole", "Bloodborne", "Final Fantasy VI"]
